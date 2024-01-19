@@ -1,0 +1,213 @@
+{
+    "Roles": [
+        {
+            "Path": "/",
+            "RoleName": "AmazonEKSClusterRole",
+            "RoleId": "AROAZ4ECZC3PKSBXIQMMW",
+            "Arn": "arn:aws:iam::678879106782:role/AmazonEKSClusterRole",
+            "CreateDate": "2022-07-10T13:36:20+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "eks.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AmazonEKSNodeRole",
+            "RoleId": "AROAZ4ECZC3PAM3UCIHP4",
+            "Arn": "arn:aws:iam::678879106782:role/AmazonEKSNodeRole",
+            "CreateDate": "2022-07-10T14:42:32+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AmazonSSMRoleForAutomationAssumeQuickSetup",
+            "RoleId": "AROAZ4ECZC3PPCW3F6AKL",
+            "Arn": "arn:aws:iam::678879106782:role/AmazonSSMRoleForAutomationAssumeQuickSetup",
+            "CreateDate": "2023-03-18T10:36:13+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ssm.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Description": "IAM role for SSM for Quick-Setup to run automation",
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AmazonSSMRoleForInstancesQuickSetup",
+            "RoleId": "AROAZ4ECZC3PCF4CNM6RI",
+            "Arn": "arn:aws:iam::678879106782:role/AmazonSSMRoleForInstancesQuickSetup",
+            "CreateDate": "2021-05-20T04:19:28+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "Description": "EC2 role for SSM for Quick-Setup",
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "aws-ec2-spot-fleet-tagging-role",
+            "RoleId": "AROAZ4ECZC3PCHPFUS53P",
+            "Arn": "arn:aws:iam::678879106782:role/aws-ec2-spot-fleet-tagging-role",
+            "CreateDate": "2021-05-23T03:50:42+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Sid": "",
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "spotfleet.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "aws-elasticbeanstalk-ec2-role",
+            "RoleId": "AROAZ4ECZC3PNZID32C7Z",
+            "Arn": "arn:aws:iam::678879106782:role/aws-elasticbeanstalk-ec2-role",
+            "CreateDate": "2021-08-05T03:51:54+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2008-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ec2.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "aws-elasticbeanstalk-service-role",
+            "RoleId": "AROAZ4ECZC3PINS43BBRO",
+            "Arn": "arn:aws:iam::678879106782:role/aws-elasticbeanstalk-service-role",
+            "CreateDate": "2021-08-05T03:51:56+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "elasticbeanstalk.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole",
+                        "Condition": {
+                            "StringEquals": {
+                                "sts:ExternalId": "elasticbeanstalk"
+                            }
+                        }
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AWS-QuickSetup-SSM-RoleForEnablingExplorer",
+            "RoleId": "AROAZ4ECZC3PGXCAVM5GA",
+            "Arn": "arn:aws:iam::678879106782:role/AWS-QuickSetup-SSM-RoleForEnablingExplorer",
+            "CreateDate": "2021-10-23T03:32:36+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "ssm.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AWS-QuickSetup-StackSet-Local-AdministrationRole",
+            "RoleId": "AROAZ4ECZC3PFGY47MZVB",
+            "Arn": "arn:aws:iam::678879106782:role/AWS-QuickSetup-StackSet-Local-AdministrationRole",
+            "CreateDate": "2021-05-20T03:58:24+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": "cloudformation.amazonaws.com"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        },
+        {
+            "Path": "/",
+            "RoleName": "AWS-QuickSetup-StackSet-Local-ExecutionRole",
+            "RoleId": "AROAZ4ECZC3PIVW637XMS",
+            "Arn": "arn:aws:iam::678879106782:role/AWS-QuickSetup-StackSet-Local-ExecutionRole",
+            "CreateDate": "2021-05-20T03:58:34+00:00",
+            "AssumeRolePolicyDocument": {
+                "Version": "2012-10-17",
+                "Statement": [
+                    {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "AWS": "arn:aws:iam::678879106782:role/AWS-QuickSetup-StackSet-Local-AdministrationRole"
+                        },
+                        "Action": "sts:AssumeRole"
+                    }
+                ]
+            },
+            "MaxSessionDuration": 3600
+        }
+    ],
+    "NextToken": "eyJNYXJrZXIiOiBudWxsLCAiYm90b190cnVuY2F0ZV9hbW91bnQiOiAxMH0="
+}

@@ -1,0 +1,126 @@
+{
+    "Snapshots": [
+        {
+            "Description": "Copied for DestinationAmi ami-0080352261d3c786b from SourceAmi ami-0a80dc84a0e6ab5b0 for SourceSnapshot snap-0a85657906cb9d36f. Task created on 1,524,247,133,370.",
+            "Encrypted": false,
+            "OwnerId": "258918358832",
+            "Progress": "100%",
+            "SnapshotId": "snap-00bcdf1fcf9ba0cb4",
+            "StartTime": "2018-04-20T17:59:00+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 20,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-4baec133 from SourceAmi ami-18d8ca78 for SourceSnapshot snap-002644fdf2d5b6a98. Task created on 1,524,160,078,444.",
+            "Encrypted": false,
+            "OwnerId": "364390758643",
+            "Progress": "100%",
+            "SnapshotId": "snap-01a097ea71396bcc0",
+            "StartTime": "2018-04-19T17:48:27+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 8,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-7f751a07 from SourceAmi ami-4eb01c31 for SourceSnapshot snap-0c7dadc5ec215db85. Task created on 1,524,133,450,751.",
+            "Encrypted": false,
+            "OwnerId": "125523088429",
+            "Progress": "100%",
+            "SnapshotId": "snap-0062683d218005801",
+            "StartTime": "2018-04-19T10:27:33+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 6,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-a87718d0 from SourceAmi ami-5ab51925 for SourceSnapshot snap-03120044b82957bb1. Task created on 1,524,132,115,170.",
+            "Encrypted": false,
+            "OwnerId": "125523088429",
+            "Progress": "100%",
+            "SnapshotId": "snap-0cd5b69d05346a599",
+            "StartTime": "2018-04-19T10:02:24+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 6,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-7b8ee203 from SourceAmi ami-58062721 for SourceSnapshot snap-0584deecbd56eafd0. Task created on 1,524,037,519,603.",
+            "Encrypted": false,
+            "OwnerId": "958145178466",
+            "Progress": "100%",
+            "SnapshotId": "snap-01fb59e1b2574c712",
+            "StartTime": "2018-04-18T07:48:33+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 15,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-7b8ee203 from SourceAmi ami-58062721 for SourceSnapshot snap-0a9dea4e4af5e410d. Task created on 1,524,037,519,603.",
+            "Encrypted": false,
+            "OwnerId": "958145178466",
+            "Progress": "100%",
+            "SnapshotId": "snap-02c354f21d07153f7",
+            "StartTime": "2018-04-18T07:48:33+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 10,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-691c7011 from SourceAmi ami-b90b19d9 for SourceSnapshot snap-04bd78ba14a8e4ab8. Task created on 1,523,975,997,720.",
+            "Encrypted": false,
+            "OwnerId": "364390758643",
+            "Progress": "100%",
+            "SnapshotId": "snap-0eeade7bac239e277",
+            "StartTime": "2018-04-17T14:39:59+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 8,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-360e624e from SourceAmi ami-3abe9843 for SourceSnapshot snap-0e159091ecd1e068b. Task created on 1,523,969,519,303.",
+            "Encrypted": false,
+            "OwnerId": "958145178466",
+            "Progress": "100%",
+            "SnapshotId": "snap-0d06ddc9d72fb602c",
+            "StartTime": "2018-04-17T12:52:09+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 10,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Copied for DestinationAmi ami-360e624e from SourceAmi ami-3abe9843 for SourceSnapshot snap-05716e45a5fad4f04. Task created on 1,523,969,519,303.",
+            "Encrypted": false,
+            "OwnerId": "958145178466",
+            "Progress": "100%",
+            "SnapshotId": "snap-09d242c55e076141a",
+            "StartTime": "2018-04-17T12:52:09+00:00",
+            "State": "completed",
+            "VolumeId": "vol-ffffffff",
+            "VolumeSize": 15,
+            "StorageTier": "standard"
+        },
+        {
+            "Description": "Created by CreateImage(i-0d0dadd6aa2c825a2) for ami-7a781502 from vol-07d90aab87ede5d69",
+            "Encrypted": false,
+            "OwnerId": "102837901569",
+            "Progress": "100%",
+            "SnapshotId": "snap-02ecc60810feaf26d",
+            "StartTime": "2018-04-16T05:52:45+00:00",
+            "State": "completed",
+            "VolumeId": "vol-07d90aab87ede5d69",
+            "VolumeSize": 30,
+            "OwnerAlias": "amazon",
+            "StorageTier": "standard"
+        }
+    ],
+    "NextToken": "eyJOZXh0VG9rZW4iOiBudWxsLCAiYm90b190cnVuY2F0ZV9hbW91bnQiOiAxMH0="
+}
